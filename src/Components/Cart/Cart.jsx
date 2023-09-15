@@ -11,7 +11,15 @@ const Cart = ({ selectrdCourse, allTotal, credit, remaining }) => {
 
 
 
-   
+      <ol className="list-decimal border-b-2 pb-4 list-inside mt-3">
+        {selectrdCourse.map((course) => (
+          <li key={course.id}>{course.course_title}</li>
+        ))}
+      </ol>
+      <h2 id="total-one" className=" pt-3 pb-4  border-b-2 ">Total Credit Hour :{credit}</h2>
+      <h2 id="total-two" className=" pt-3  pb-0">Total Price :{allTotal}</h2>
+
+    </div>
   );
 };
 
