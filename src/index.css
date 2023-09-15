@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Work+Sans:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#home-title{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#card-name{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#course-name{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#creadit-hour{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 166.667% */
+}
+#total-one{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgba(28, 27, 27, 0.80);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#total-two{
+font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgba(28, 27, 27, 0.80);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
