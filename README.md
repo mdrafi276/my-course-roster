@@ -1,8 +1,17 @@
-# React + Vite
+# This is about my project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Some feature of my website
 
-Currently, two official plugins are available:
+- The page is entirely dynamic.  
+- The website is responsive and user friendly. 
+- There is restriction  user only can by up to 20 credits, if try to by more then 20 a message toast  notification   will come from right site.
+- When select a course  the course name displaying the cart.
+- Also have a credit limitation function.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### state management in my project
+
+In this  project for state management I used useState and useEffect here is an some over view of state mansagement.
+1. Firstly  i used useState for holding data from json.
+2. Then i used useEffect for  data management, which is then pass to other components through porps.
+3. The project used data from props to creat a dynamic card section.
+4. Conditional rendaring relative for credit and time management.

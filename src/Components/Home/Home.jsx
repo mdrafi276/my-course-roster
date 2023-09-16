@@ -23,14 +23,14 @@ const Home = () => {
     let creditTime = course.credit_time;
     let price = course.price;
     if (ifExest) {
-      return toast("hello every one");
+      return toast("This Allready Selected");
     } else {
       selectrdCourse.forEach((item) => {
         (price += item.price), (creditTime += item.credit_time);
       });
       const remaining = 20 - creditTime;
       if (creditTime > 20) {
-        return toast("Too Much");
+        return toast("AllReady Too Much Selected");
       } else {
         setCredit(creditTime);
         setRemaining(remaining);
